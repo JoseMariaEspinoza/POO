@@ -85,4 +85,6 @@ public class Curso {
     public float getDuracion(){
         return duracion;
     }
+
+
 }

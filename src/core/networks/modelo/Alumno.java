@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Alumno {
     //1. Atributos
     public int parciales;
+    public int indice;
     public double[] notas = new double[parciales];
     public String nombreCompleto;
     public double notaFinal;
@@ -30,12 +31,10 @@ public class Alumno {
     }
     //Constructores
     public Alumno(){}
-    public Alumno(String nombreCompleto, int parciales) {
+    public Alumno(int indice, String nombreCompleto, int parciales) {
         this.nombreCompleto = nombreCompleto;
         this.parciales = parciales;
-        for (int i=0; i<=notas.length;i++) {
-            this.notas[i] = notas[i];
-        }
+        this.notas[indice] = notas[indice];
     }
     //Getters y Setters
 

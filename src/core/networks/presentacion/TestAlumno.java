@@ -13,7 +13,7 @@ public class TestAlumno {
         a1.setNombreCompleto(entrada.next());
         System.out.println("Introduzca el numero de parciales");
         a1.setParciales(entrada.nextInt());
-        for(int i=0; i<=a1.getNotas().length;i++){
+        for(int i=0; i<=a1.getParciales();i++){
         System.out.println("Introduzca Calificación " + (i+1));
         a1.asignarValores(i,entrada.nextDouble());
         }

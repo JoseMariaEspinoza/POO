@@ -7,8 +7,7 @@ public class ProbarUsuario {
         //Instanciar clase Usuario
         Usuario u1 = new Usuario();
         Usuario u2 = new Usuario("kaltorak","12345","David","mi casa");
-
-        System.out.println(u1.toString());
+        
         System.out.println(u2.toString());
         u1.setUsuario("starcream");
         u1.setContrasena("123456");

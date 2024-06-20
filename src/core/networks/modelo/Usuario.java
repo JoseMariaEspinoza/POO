@@ -15,10 +15,10 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "usuario=" + usuario +
-                ", contrasena=" + contrasena +
-                ", nombre=" + nombre +
-                ", direccion=" + direccion;
+        return "usuario: " + usuario +
+                ", contrasena:" + contrasena +
+                ", nombre:" + nombre +
+                ", direccion:" + direccion;
     }
 
     //3. Constructores
